@@ -10,10 +10,12 @@ Forest analyst with the Ontario Ministry of Natural Resources. I build tools for
 
 | Tool | Description | Stack |
 |---|---|---|
-| [LOGIC_CHECKER](https://github.com/rinecology/logic-checker-dist) | Forest inventory data quality validation (156 rules, Shiny + PowerShell) | R, Shiny, Leaflet |
-| [FRI LiDAR Toolkit](https://github.com/rinecology/fri-lidar-dist) | LiDAR processing and 3D visualization for Ontario FRI data | R, terra, lidR |
-| [SLYM Companion](https://github.com/rinecology/slym-companion-dist) | Yield curve modeling suite (5 integrated tools) | R, Shiny |
-| [ForestUnit JS](https://rinecology.github.io/forest-unit-js/) | Client-side forest unit analysis — runs in the browser, no install | JavaScript |
+| [ForestUnit JS](https://rinecology.github.io/forest-unit-js/) | Browser-based forest unit assignment — 7 YAML rule sets, cross-rule-set comparison mode, no install | JavaScript |
+| [Forest Classification Analyzer](https://github.com/rinecology/forest-unit-shiny-dist) | Batch compare 2–5 classification scenarios with confusion matrices and agreement analysis | R, Shiny |
+| [LOGIC_CHECKER](https://github.com/rinecology/logic-checker-dist) | Forest inventory data quality validation (156 rules, Shiny + PowerShell desktop) | R, Shiny, Leaflet |
+| [FRI LiDAR Toolkit](https://github.com/rinecology/fri-lidar-dist) | LiDAR processing, crown delineation, and 3D WebGL point cloud viewer for Ontario FRI data | R, terra, lidR |
+| [FRI DataKit](https://github.com/rinecology/fri-datakit-dist) | Forest inventory data prep — silviculture filtering, SI imputation, BA enrichment, yield extraction | R, Shiny |
+| [SLYM Companion](https://github.com/rinecology/slym-companion-dist) | Yield curve modeling suite (4 integrated tools) | R, Shiny |
 
 ---
 
@@ -26,9 +28,4 @@ Forest analyst with the Ontario Ministry of Natural Resources. I build tools for
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-zhangyuplantecologist-blue?logo=linkedin)](https://www.linkedin.com/in/zhangyuplantecologist/)
 
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
